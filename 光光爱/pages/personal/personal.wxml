@@ -1,0 +1,42 @@
+<!--pages/personal/personal.wxml-->
+<image src="../../images/主界面背景.jpg" class="backgroundImage"></image>
+
+<view class="top">
+  <view class="top-left">
+    <image src="../../images/用户头像.png"></image>
+  </view>
+
+  <view class="top-middle">
+    <text class="top-middle-id">ID:小飞侠</text>
+    <text class="top-middle-type">用户类型:志愿者</text>
+  </view>
+
+  <view class="top-right">
+    <text class="top-right-setting" bindtap="tapSetting">设置</text>
+    <text class="top-right-go">></text>
+  </view>
+</view>
+
+<view class="account">
+  <text>账户明细</text>
+</view>
+
+<view class="recharge">
+  <text>充值</text>
+</view>
+
+<view class="clearance"></view>
+
+<view class="enterpriseEntry">
+  <text>企业入驻</text>
+</view>
+
+<view class="info">
+  <text>发布信息</text>
+</view>
+
+<view class="clearance"></view>
+
+<view class="feedback">
+  <text>反馈</text>
+</view>
